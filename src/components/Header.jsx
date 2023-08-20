@@ -45,7 +45,7 @@ const Header = () => {
                     </div>
                 )}
 
-                <Link to='/' className='flex h-5 items-center px-4'>
+                <Link to='/' className='flex h-12 items-center px-4 py-3 pb-4'>
                     <img className='h-full dark:md:block' src={ytLogo} alt="YouTube" />
                     <img className='h-full md:hidden' src={ytLogoMobile} alt="YouTube" />
                 </Link>
@@ -74,10 +74,10 @@ const Header = () => {
             <div className='flex items-center'>
                 <div className="hidden md:flex">
                     <div className='flex items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]'>
-                        <RiVideoAddLine className='text-white text-xl cursor-pointer'/>
+                        <RiVideoAddLine className='text-white text-xl cursor-pointer' />
                     </div>
                     <div className='flex items-center justify-center h-10 w-10 ml-2 rounded-full hover:bg-[#303030]/[0.6]'>
-                        <FiBell className='text-white text-xl cursor-pointer'/>
+                        <FiBell className='text-white text-xl cursor-pointer' />
                     </div>
                     <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
                         <img src="https://xsgames.co/randomusers/assets/avatars/male/35.jpg" alt="" />
